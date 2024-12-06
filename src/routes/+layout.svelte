@@ -91,55 +91,5 @@
 	</div>
 </div>
 
-<!-- Floating badge (hidden on mobile)-->
-<footer class="fixed bottom-8 right-8 z-50 hidden md:block">
-	<div
-		class="flex flex-col items-center justify-center gap-2 rounded-lg border bg-white/80 px-6 py-4 shadow-sm backdrop-blur-sm"
-	>
-		<p class="text-sm font-light tracking-wide text-gray-500">
-			ThisUX, a forward-thinking product studio
-		</p>
-		<a
-			href="https://thisux.com"
-			class="hover:text-primary group flex items-center gap-2 text-sm font-medium text-gray-900 transition-colors"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			thisux.com
-			<span class="text-xs opacity-0 transition-opacity group-hover:opacity-100">→</span>
-		</a>
-	</div>
-</footer>
-
-<!-- Static text on mobile (above bottom nav) -->
-<div class="flex flex-col items-center justify-center gap-1 border-t bg-white px-4 py-3 md:hidden">
-	<p class="text-xs font-light tracking-wide text-gray-500">
-		ThisUX, a forward-thinking product studio
-	</p>
-	<a
-		href="https://thisux.com"
-		class="hover:text-primary text-xs font-medium text-gray-900"
-		target="_blank"
-		rel="noopener noreferrer"
-	>
-		thisux.com
-	</a>
-</div>
-
-<style>
-	footer {
-		animation: float 6s ease-in-out infinite;
-	}
-
-	@keyframes float {
-		0% {
-			transform: translateY(0px);
-		}
-		50% {
-			transform: translateY(-10px);
-		}
-		100% {
-			transform: translateY(0px);
-		}
-	}
+<style>	
 </style>
